@@ -1,0 +1,29 @@
+programa prova;
+var a , b : inteiro;
+	procedimento proc1;  
+	var a : inteiro;
+		funcao func1 : inteiro;  
+		var x : inteiro;
+		inicio
+			x := a + 2 div a + ( 5 + a * 2 )
+			se x > 15
+					então
+					func1 := 2;
+				func1 := 4;  
+		fim;
+	início  
+		leia(a);
+		se ( func1 * 2 > 7 )
+		então
+			b := 2
+		senão   
+			b := 3
+	fim;  
+início  
+	leia(a);
+	proc1;
+	a := a + b;
+	escreva(a);
+fim.
+
+

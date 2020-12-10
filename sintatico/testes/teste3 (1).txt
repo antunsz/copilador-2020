@@ -1,0 +1,31 @@
+programa testefinal; {ERRO procedimento duplicado}
+
+var opcao,x,y:inteiro;
+
+
+procedimento n;
+var x,y,total: inteiro;
+
+procedimento n;         {ERRO procedimento duplicado}
+var m: inteiro;
+inicio
+  m:=1;
+  escreva(media)
+fim;
+
+inicio
+  leia(x);
+  total:= x;
+  escreva(total); 
+  n           
+fim;
+
+procedimento n1;               
+var z: inteiro;
+inicio
+  z:=2               
+fim;
+
+inicio
+      n1;
+fim.         

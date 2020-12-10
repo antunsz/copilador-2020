@@ -1,0 +1,32 @@
+programa testefinal;
+var opcao , x , y : inteiro;
+	procedimento d;  
+	var media : inteiro;
+	inicio
+		media := 0
+					 se (x = 99) ou (x>100)
+			então
+			media := x * 2;
+		escreva(media)  
+	fim;
+	procedimento p;  
+	var z : inteiro;
+	inicio
+		z := x ;  x := x – 1 ;
+		se (z > 1) 
+		então
+			p
+		senão   
+			y := 1;
+		y := y * z  
+	fim;
+início  L1
+	leia(opcao);
+	leia(x);
+	se opção = 1
+		então d
+		senão inicio 
+			p;
+			escreva(y);
+		fim  
+fim.  

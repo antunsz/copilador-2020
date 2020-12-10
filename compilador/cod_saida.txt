@@ -1,0 +1,36 @@
+START  
+ALLOC 0 , 2
+JMP L1 
+L2  
+ALLOC 2 , 1
+LDV 0 
+STR 2 
+LDV 0 
+LDC 1 
+SUB  
+STR 0 
+LDV 2 
+LDC 1 
+CMA  
+JMPF L3 
+CALL L2 
+JMP L4 
+L3  
+LDC 1 
+STR 1 
+L4  
+LDV 1 
+LDV 2 
+MULT  
+STR 1 
+DALLOC 2 , 1
+RETURN  
+L1  
+RD  
+STR 0 
+LDV 1 
+PRN  
+LDV 0 
+PRN  
+DALLOC 0 , 2
+HLT  

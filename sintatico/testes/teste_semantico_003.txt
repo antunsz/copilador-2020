@@ -1,0 +1,24 @@
+programa test;
+	var a , b : inteiro;
+		funcao soma : inteiro;  
+		var c , a : inteiro;
+			procedimento ler;  
+			inicio
+				leia(c);
+				leia(a);
+				escreva(soma);
+			fim;
+			procedimento loop;  
+			var x : inteiro;
+			inicio
+				leia(x);
+				se x < 10
+				então ler;
+			fim;   
+		inicio  
+			loop;
+			soma := c + a;
+		fim;
+inicio  
+	escreva(soma);
+fim.
