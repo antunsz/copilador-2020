@@ -1,9 +1,0 @@
-programa exemplo6;
- var x, y: inteiro;
- procedimento p;
-var z: inteiro;
- inicio
-se z>1 entao p
-
- senao y:=1;
- fim.
