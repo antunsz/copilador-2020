@@ -20,6 +20,12 @@ Após compilado, um arquivo .txt é criado na pasta do compilador, com o nome *c
 ## Máquina virtual
 Foi desenvolvida uma interface de máquina virtual onde é possível carregar o arquivo *cod_saida.txt* e verificar a execução do código gerado. É possível colocar breakpoints, e ver o que acontece na representação da pilha da máquina.
 
+## Arquivos de apoio
 
+Todas as instruções do código de saída podem ser consultadas no arquivo *Instruções.pdf*
+
+A gramática utilizada está no arquivo *gramatica_sintatico.txt*
+
+Um exemplo de código de entrada pode ser visto no arquivo *entrada_semantico.txt*
 
 
